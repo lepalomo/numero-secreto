@@ -17,7 +17,7 @@ function exibirMensagemInicial() {
 exibirMensagemInicial();
 
 function verificarChute() {
-    let chute = document.querySelector('input').value;//chute
+    let chute = document.querySelector('input').value;
     
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');
